@@ -1,0 +1,22 @@
+{
+  "name": "chase-dl",
+  "version": "1.0.0",
+  "description": "Download chase.com transactions",
+  "main": "download.js",
+  "dependencies": {
+    "dotenv": "2.0.x",
+    "moment": "2.11.x",
+    "nightmare": "2.5.x",
+    "nightmare-download-manager": "0.2.x",
+    "vo": "1.0.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "banking"
+  ],
+  "author": "katy lavallee",
+  "license": "MIT"
+}

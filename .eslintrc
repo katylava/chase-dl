@@ -1,0 +1,14 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "rules": {
+        "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+        "comma-dangle": [2, "always-multiline"],
+        "no-array-constructor": 2,
+        "no-trailing-spaces": 2,
+        "object-curly-spacing": [2, "always"],
+        "semi": [2, "never"]
+    }
+}
