@@ -39,11 +39,11 @@ vo(function* () {
     console.log(balance)
 
     yield nightmare
-        .click('#downloadIcon')
+        .click('#downloadActivityIcon')
         .wait('#header-styledSelect0')
         .click(`div.list-container a[rel="${process.env.CHASE_DOWNLOAD_TYPE}"]`)
         .wait(500)
-        .click('div.list-container a[rel="selectDateRangeOption"]')
+        .click('div.list-container a[rel="DATE_RANGE"]')
         .wait('#input-accountActivityFromDate-input-field')
         .type('#input-accountActivityFromDate-input-field', moment().add(-1, 'month').format('MM/DD/YYYY'))
         .type('#input-accountActivityToDate-input-field', moment().format('MM/DD/YYYY'))
