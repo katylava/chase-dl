@@ -47,6 +47,7 @@ vo(function* () {
         .wait('#input-accountActivityFromDate-input-field')
         .type('#input-accountActivityFromDate-input-field', moment().add(-1, 'month').format('MM/DD/YYYY'))
         .type('#input-accountActivityToDate-input-field', moment().format('MM/DD/YYYY'))
+        .wait('button#download:not(disabled)')
         .click('button#download')
         .waitDownloadsComplete()
 
