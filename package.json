@@ -5,10 +5,10 @@
   "main": "download.js",
   "dependencies": {
     "dotenv": "2.0.x",
-    "moment": "2.11.x",
-    "nightmare": "2.5.x",
+    "moment": "2.15.x",
+    "nightmare": "2.7.x",
     "nightmare-download-manager": "0.2.x",
-    "vo": "1.0.x"
+    "vo": "4.0.x"
   },
   "devDependencies": {},
   "scripts": {
